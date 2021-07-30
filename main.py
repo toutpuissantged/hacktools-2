@@ -30,7 +30,6 @@ class HackTools(object):
             'username':'?',
             'app-name':'HACKTOOLS',
 			'start-time':time.time()
-
         }
 		self.wifi_used=self.config['ssid']
 		self.link=""
@@ -171,7 +170,8 @@ class HackTools(object):
 							notconected+=1
 							self.state['statut']= 'no internet  connexion'
 							print('no internet  connexion')
-							wb.open(self.link)
+							#wb.open(self.link)
+							self.OpenBrowser(self.link)
 							print('link is ',self.link)
 							time.sleep(2)
 

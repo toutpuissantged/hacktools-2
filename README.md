@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ### utilisation ###
 
-python3 index.py
+python3 main.py
 
 ### droit ###
 

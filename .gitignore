@@ -1,6 +1,8 @@
 change-mac
 build
+bin/*
 dist
+javascript/*
 __pycache__
 */__pycache__
 TMAC
